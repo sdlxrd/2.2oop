@@ -98,21 +98,21 @@ istream& operator >> (istream& in, complex& x)
 
 	return in;
 }
-complex& complex::operator ++()
+complex complex::operator ++()
 {
 	x++;
 	y++;
 
 	return *this;
 }
-complex& complex::operator --()
+complex complex::operator --()
 {
 	x--;
 	y--;
 	return *this;
 }
 
-complex& complex::operator ++(int)
+complex complex::operator ++(int)
 {
 	complex f(*this);
 	x++;
@@ -120,7 +120,7 @@ complex& complex::operator ++(int)
 
 	return f;
 }
-complex& complex::operator --(int)
+complex complex::operator --(int)
 {
 	complex f(*this);
 	x--;

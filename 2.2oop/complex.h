@@ -37,10 +37,10 @@ public:
 	friend ostream& operator << (ostream&, const complex&);
 	friend istream& operator >> (istream&, complex&);
 
-	complex& operator ++();
-	complex& operator --();
-	complex& operator ++(int);
-	complex& operator --(int);
+	complex operator ++();
+	complex operator --();
+	complex operator ++(int);
+	complex operator --(int);
 
 };
 

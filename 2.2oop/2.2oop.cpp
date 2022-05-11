@@ -8,11 +8,12 @@ int main()
 {
 	complex f;
 	complex x, y;
-
+	string t = "U0001f1e6";
+	cout << t;
+	/*
 	cout << "first: "; cin >> x;
 	cout << "second: "; cin >> y;
 	cout << endl;
-
 	cout << "first + second: " << x + y << endl;
 	cout << "first - second: " << x - y << endl ;
 	cout << "first * second: " << x * y << endl;
@@ -35,10 +36,10 @@ int main()
 	cin.get();
 	system("cls");
 	cout << "x++ : " << x++ << endl;
-	cout << "res = " << x;
-	cout << "++x = " << ++x;
+	cout << x << endl;
+	cout << "++x : " << endl << ++x << endl;
 
-	cout << "x-- = " << x--;
-	cout << "res = " << x;
-	cout << "--x = " << --x;
+	cout << "x-- : " << x-- << endl;
+	cout << x << endl;
+	cout << "--x : " << --x;*/
 }
