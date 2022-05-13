@@ -1,4 +1,6 @@
-﻿#include <iostream>
+﻿//source.cpp
+//////////////////////////////////////////////////////
+#include <iostream>
 #include <string>
 #include "complex.h"
 
@@ -8,9 +10,8 @@ int main()
 {
 	complex f;
 	complex x, y;
-	string t = "U0001f1e6";
-	cout << t;
-	/*
+
+
 	cout << "first: "; cin >> x;
 	cout << "second: "; cin >> y;
 	cout << endl;
@@ -41,5 +42,5 @@ int main()
 
 	cout << "x-- : " << x-- << endl;
 	cout << x << endl;
-	cout << "--x : " << --x;*/
+	cout << "--x : " << --x;
 }
